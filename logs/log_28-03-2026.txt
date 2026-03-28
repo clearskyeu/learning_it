@@ -1,0 +1,249 @@
+
+--- check 18:44:37 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:38 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:38 ---
+  google.com      : [ OK ]
+  github.com      : [ Eror ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:39 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:39 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:40 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:40 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:40 ---
+  google.com      : [ Eror ]
+  github.com      : [ Eror ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:42 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:42 ---
+  google.com      : [ OK ]
+  github.com      : [ Eror ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:43 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ Eror ]
+
+--- check 18:44:45 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:45 ---
+  google.com      : [ Eror ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:46 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:46 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:46 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:47 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:47 ---
+  google.com      : [ Eror ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:48 ---
+  google.com      : [ OK ]
+  github.com      : [ Eror ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:49 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:49 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:49 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:50 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:50 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:50 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:50 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:50 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:50 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:51 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:51 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:51 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:51 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:51 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:52 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:52 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:52 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:52 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:52 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:52 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:53 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:53 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:53 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:53 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:53 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:54 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:54 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:54 ---
+  google.com      : [ OK ]
+  github.com      : [ Eror ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:55 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:55 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- check 18:44:55 ---
+  google.com      : [ OK ]
+  github.com      : [ OK ]

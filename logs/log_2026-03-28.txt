@@ -1,0 +1,10 @@
+
+--- Проверка 18:22:26 ---
+  google.com      : [ ERROR ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
+
+--- Проверка 18:22:37 ---
+  google.com      : [ ERROR ]
+  github.com      : [ OK ]
+  8.8.8.8         : [ OK ]
