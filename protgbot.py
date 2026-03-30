@@ -5,13 +5,23 @@ import requests
 from rich.console import Console
 from rich.table import Table
 from rich.live import Live
+import socket
+
+SECURITY_PORTS = [22, 80, 443, 3389]
+
+def check_port(ip,port):
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    sock.settimeout(1)
+    result = sock.connect_ex((ip, port))
+    sock.close()
+    return result == 0
 
 TOKEN = "your token"
 CHAT_ID = "your id"
 TARGETS = ["google.com", "192.168.3.1", "github.com", "store.steampowered.com"]
 
 console = Console()
-last_states = {host: "OK" for host in TARGETS}
+last_states = {host: "Unknown" for host in TARGETS}
 
 def send_tg(message):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
@@ -46,15 +56,34 @@ try:
                         ["ping", "-c", "1", "-W", "1", host],
                         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
                     )
-                    current_status = "OK"
-                except subprocess.CalledProcessError:
-                    current_status = "ERROR"
+                    ping_ok = True
+                except: 
+                    ping_ok = False
 
-                if current_status!= last_states[host]:
-                    if current_status == "ERROR":
+                open_ports = []
+                if ping_ok:
+                    for port in SECURITY_PORTS:
+                        if check_port(host, port):
+                            open_ports.append(str(port))
+
+                ports_info = ", ".join(open_ports) if open_ports else "None"
+
+                if not ping_ok:
+                    current_status = "down"
+                else:
+                    ports_info = f"UP (Ports: {', '.join(open_ports) if open_ports else 'None'})"
+                    current_status = ports_info
+
+                
+
+        
+                if current_status != last_states[host]:
+                    if current_status == "down":
+
                         send_tg(f"❌ {host} down")
                     else:
-                        send_tg(f"✅ {host} UP")
+                        send_tg(f"✅ {host} UP: {current_status}")
+
                     last_states[host] = current_status
 
             live.update(generate_table())
